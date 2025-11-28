@@ -23,7 +23,11 @@ export const TelaEmManutencao = () => {
                         />
                     </Stack>
                     <Typography variant="h5">
-                        Tela em Manutenção! Estamos trabalhando para melhorar a sua experiência.
+                        Plataforma em Manutenção
+                    </Typography>
+                    <Typography variant="body1" sx={{ textAlign: "center" }}>
+                        No momento, estamos realizando melhorias na plataforma para
+                        oferecer uma experiência ainda melhor para você. Em breve, estaremos de volta.
                     </Typography>
                     <Button
                         tamanho={"md"}

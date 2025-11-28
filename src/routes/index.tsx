@@ -23,7 +23,11 @@ const routes = createBrowserRouter([
                 children: [
                     {
                         index: true,
-                        loader: async () => redirect("conheca-nexus"),
+                        loader: async () => redirect("manutencao"),
+                    },
+                    {
+                        path: "manutencao",
+                        element: <Paginas.TelaEmManutencao />,
                     },
                     {
                         path: "conheca-nexus",
@@ -53,7 +57,11 @@ const routes = createBrowserRouter([
                         children: [
                             {
                                 index: true,
-                                loader: async () => redirect("projetos"),
+                                loader: async () => redirect("manutencao"),
+                            },
+                            {
+                                path: "manutencao",
+                                element: <Paginas.TelaEmManutencao />,
                             },
                             {
                                 path: "projetos",
